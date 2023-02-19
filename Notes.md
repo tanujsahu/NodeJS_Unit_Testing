@@ -5,7 +5,7 @@
     npm install nodemon
 
 # create indexJS file for logic
-   touch index.js
+    touch index.js
 
 # create script inside packageJson
     "start":"nodemon index.js"
