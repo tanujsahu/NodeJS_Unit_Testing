@@ -28,4 +28,7 @@
 # run test command
      npm run jest-test
 
+# setup babel bcz jest dont have propper support of es6
+     npm install @babel/core @babel/cli @babel/preset-env --save-dev
+
 
