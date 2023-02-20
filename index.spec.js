@@ -8,6 +8,7 @@ it("shold check addition", () => {
   const add = math.add(1, 25);
   expect(add).toBe(26);
 });
+
 it("shold check subtraction", () => {
   const sub = math.subtract(30, 25);
   expect(sub).toBe(5);

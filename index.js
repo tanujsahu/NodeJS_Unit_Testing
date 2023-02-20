@@ -6,3 +6,16 @@ export const add = (a, b) => {
 export function subtract(a, b) {
     return a - b;
 }
+
+export const arrSort = (arr) => {
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr.length - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        var temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+  }
+  return arr;
+};
