@@ -1,5 +1,5 @@
 # create project
-    npm init
+    npm init --y
 
 # install nodemon
     npm install nodemon
