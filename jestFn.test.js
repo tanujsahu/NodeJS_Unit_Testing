@@ -28,9 +28,29 @@ describe("add", () => {
     expect(math.arrSort(arr)).toEqual([1, 2, 4, 6, 8]);
   });
 
+  it("should check value is false", () => {
+    expect(math.valueFalse).toBeFalsy();
+  });
+
+  it("should check value is true", () => {
+    expect(math.valueTrue).not.toBeFalsy();
+  });
+
+  test('should match valid email address', () => {
+    const emailRegex = math.emailRegex;
+    const validEmail = 'tanuj@example.com';
+    expect(validEmail).toMatch(emailRegex);
+  });
+
+  test('should not match an invalid email address', () => {
+    const emailRegex = math.emailRegex;
+    const invalidEmail = 'invalid_email.com';
+    expect(invalidEmail).not.toMatch(emailRegex);
+  });
+
   afterEach(() => {
     // Tear down any resources that need to be cleaned up after each test
   });
-  
+
 });
   

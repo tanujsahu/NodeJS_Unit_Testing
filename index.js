@@ -19,3 +19,8 @@ export const arrSort = (arr) => {
   }
   return arr;
 };
+
+export const valueTrue = true;
+export const valueFalse = false;
+export const emailRegex = /^[\w.-]+@[\w.-]+\.[A-Za-z]{2,}$/
+
