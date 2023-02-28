@@ -1,4 +1,4 @@
-import * as math from './index.js'
+import * as math from '../index.js'
 
 describe("add", () => {
   let a,

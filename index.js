@@ -22,5 +22,12 @@ export const arrSort = (arr) => {
 
 export const valueTrue = true;
 export const valueFalse = false;
-export const emailRegex = /^[\w.-]+@[\w.-]+\.[A-Za-z]{2,}$/
+export const emailRegex = /^[\w.-]+@[\w.-]+\.[A-Za-z]{2,}$/;
+
+export const mockFn = function forEach(items, callback) {
+  console.log("items",items)
+  for (let index = 0; index < items.length; index++) {
+    callback(items[index]);
+  }
+} 
 
