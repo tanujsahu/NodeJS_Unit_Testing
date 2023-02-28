@@ -47,9 +47,11 @@
 
      npm install @babel/core @babel/cli @babel/preset-env --save-dev
 
+# create .babelrc for babel configuration
+    touch .babelrc
+
 # Example
 
-    touch .babelrc
     {
         "presets": [
         [
