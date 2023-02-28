@@ -26,6 +26,11 @@
 
      touch index.spec.js
 
+# write unit test E.G
+    test('adds 1 + 2 to equal 3', () => {
+    expect(1 + 2).toBe(3);
+    });
+
 ## Command 'jest' not found, but can be installed with:
 
     sudo apt install jest
